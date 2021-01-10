@@ -78,6 +78,8 @@ main{
     height: 70vh;
     display: flex;
     flex-direction: row;
+    width: 70vw;
+    margin: auto;
 }
 .welcome img{
     width: 40vw;
@@ -163,7 +165,7 @@ main{
     color: #fff;
 }
 .newsletter div input{
-    height: 3em;
+    height: 4em;
     width: 30em;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
@@ -193,6 +195,7 @@ main{
     flex-direction: row;
     padding-left: 1.5em;
     font-family: 'Poppins', sans-serif;
+    align-items: center;
 }
 footer{
     background-color: rgb(26, 27, 34);
