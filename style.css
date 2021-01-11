@@ -13,9 +13,30 @@
     position: absolute;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     width: 100vw;
     height: 2em;
+}
+.line{
+    height: 1px;
+    width: 100vw;
+    position: absolute;
+    top: 6em;
+    opacity: .2;
+    background-color: #000;
+}
+.contactMe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+    margin-left: 1em;
+}
+.top p{
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
 }
 .top img{
     width: 3.3em;
@@ -62,10 +83,22 @@ header nav ul li a{
     color: #000;
     font-weight: 550;
 }
+header nav ul li a:hover{
+    color: rgb(194, 59, 59);
+    letter-spacing: 3px;
+}
 header nav img{
     width: 1.5em;
     height: 1.5em;
     padding-left: -1.5em;
+}
+#search{
+    width: 30vw;
+    height: 2.2em;
+    border-radius: 5px;
+    border-top: #000;
+    border-left: #fff;
+    border: 1px transparent #fff;
 }
 main{
     margin-left: 2em;
@@ -119,6 +152,16 @@ main{
     width: 15vw;
     margin-bottom: 1em;
     height: 17em;
+}
+.fp1 h4{
+    margin: 1em;
+    font-size: 1.1em;
+    font-weight: 550;
+}
+.fp1 p{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: -.5em;
 }
 .featured-products img{
     width: 15vw;
@@ -189,6 +232,9 @@ main{
     border-top-left-radius: 0px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .socials span{
     display: flex;
