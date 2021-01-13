@@ -100,10 +100,12 @@
         <div class="mainNewsletter">
             <p class="mainNewsletterp">Subscribe to our Newsletter</p>
             <div class="newsletter">
-                <div>
-                    
-                    <input type="email" name="email" id="email" placeholder="Enter your Email Address">
-                    <a href="#">→</a>
+                <div class="inp">
+                    <input type="email" name="email" class="here" id="email" placeholder="Enter your Email Address">
+                    <button onclick="ValidateEmail()">→</button>
+                    <span class="warn hide" >
+                        <img src="Assets/Images/icon-error.svg"  alt="I">
+                    </span>
                 </div>
                 <div class="socials">
                     <span>

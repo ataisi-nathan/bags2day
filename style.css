@@ -141,6 +141,11 @@ main{
     padding: 5px;
     border-radius: 5px;
 }
+.note a:hover{
+    background-color: transparent;
+    border: 2px solid rgb(207, 78, 78);
+    color: rgb(207, 78, 78);
+}
 .featured-products{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -176,7 +181,7 @@ main{
 .popular-product{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr ;
+    grid-template-rows: 1fr;
     margin-left: 5em;
 }
 .popular-product img{
@@ -216,18 +221,27 @@ main{
     border-top-right-radius: 0px;
     border-color: transparent;
 }
+.here{
+    height: 4em;
+    width: 30em;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-color: transparent;
+}
 .newsletter div img{
     height: 1em;
     width: 2em;
 }
-.newsletter a{
-    text-decoration: none;
+.newsletter button{
     color: #fff;
     background-color: rgb(185, 72, 72);
     font-size: 2em;
     padding: .1em;
     padding-left: .3em;
     padding-right: .3em;
+    border: none;
     border-bottom-left-radius: 0px;
     border-top-left-radius: 0px;
     border-bottom-right-radius: 10px;
@@ -235,6 +249,25 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+.inp{
+    position: relative;
+}
+.warn{
+    position: absolute;
+    top: 1.3em;
+    right: 3.5em;
+}
+.warn img{
+    width: 3em;
+    height: 2em;
+}
+.hide{
+    visibility: hidden;
+}
+.error{
+    visibility: visible;
 }
 .socials span{
     display: flex;
@@ -276,4 +309,11 @@ footer{
     height: 2.5em;
     margin: 1em;
     margin-top: .3em;
+}
+.here{
+    position: relative;
+}
+.error{
+    position: absolute;
+    img
 }
