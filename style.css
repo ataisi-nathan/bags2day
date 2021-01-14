@@ -476,9 +476,6 @@ footer{
         visibility: hidden;
         position: absolute;
     }
-    footer{
-        height: 3em;
-    }
     .section{
         background-color: rgb(24, 25, 27);
         display: flex;
