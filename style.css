@@ -316,3 +316,175 @@ footer{
 .error{
     position: absolute;
 }
+@media screen and (max-width: 500px){
+    .top{
+        visibility: hidden;
+    }
+    .line{
+        margin-top: -3em;
+    }
+    header{
+        margin-top: 0em;
+    }
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        visibility: hidden;
+        top: 50%;
+        left: 50%;
+    }
+    .logo h2{
+        position: absolute;
+        top: 0;
+        left: 35%;
+    }
+    main{
+        visibility: visible;
+        margin-top: 3em;
+    }
+    .welcome{
+        height: 15em;
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.9);
+        width: 90vw;
+    }
+    .welcome img{
+        position: absolute;
+        height: 14em;
+        width: 100%;
+    }
+    .note{
+        background-color: transparent;
+        z-index: 1;
+        max-width: 90vw;
+        margin: 0;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #000;
+    }
+    .note p{
+        font-size: 1em;
+        text-align: center;
+        padding: 5px;
+        padding-right: 20px;
+    }
+    .note a{
+        text-align: center;
+        margin-left: 100px;
+    }
+    .featured-products{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-left: 0em;
+    }
+    .fptitle p{
+        font-size: .6em;
+        margin-top: 1em;
+    }
+    .fp1{
+        width: 120px;
+        margin: 10px;
+        height: 200px;
+    }
+    .fp1 img{
+        height: 100px;
+        width: 120px;
+    }
+    .popular-product{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-left: 0em;
+    }
+    .mainNewsletter{
+        border-radius: 10px;
+    }
+    .mainNewsletterp{
+        font-size: 1.1em;
+        font-weight: 600;
+        margin-top: 1em;
+        margin-right: 4em;
+    }
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 3.5em;
+        align-items: center;
+        margin-right: 5em;
+        padding: 1px;
+    }
+    .newsletter div{
+        display: flex;
+        flex-direction: row;
+        color: #fff;
+    }
+    .newsletter div input{
+        height: 2.5em;
+        width: 15em;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        border-color: transparent;
+    }
+    .newsletter div img{
+        height: 1em;
+        width: 2em;
+    }
+    .newsletter button{
+        color: #fff;
+        background-color: rgb(185, 72, 72);
+        font-size: 2em;
+        padding: 0em;
+        padding-left: .3em;
+        padding-right: .3em;
+        border: none;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        cursor: pointer;
+        margin-left: -.7em;
+        z-index: 1;
+    }
+    .inp{
+        position: relative;
+    }
+    .warn{
+        position: absolute;
+        top: 1em;
+        right: 3.5em;
+    }
+    .warn img{
+        width: 3em;
+        height: 2em;
+    }
+    .hide{
+        visibility: hidden;
+    }
+    .error{
+        visibility: visible;
+    }
+    .socials{
+        visibility: hidden;
+    }
+    .payment{
+        visibility: hidden;
+    }
+    .section{
+        background-color: rgb(24, 25, 27);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        border-color: #fff;
+        width: 100vw;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+}
