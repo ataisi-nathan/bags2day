@@ -23,3 +23,9 @@ function ValidateEmail(){
         return (false);
     }
 }
+function toggleMenu(){
+    document.querySelector('.ham').classList.toggle('hide');
+    document.querySelector('.close').classList.toggle('error');
+    document.querySelector('.menu').classList.toggle('hide')
+    document.querySelector('.links').classList.toggle('error')
+}

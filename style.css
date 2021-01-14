@@ -16,6 +16,8 @@
     justify-content: space-between;
     width: 100vw;
     height: 2em;
+}.menu{
+    position: absolute;
 }
 .line{
     height: 1px;
@@ -45,6 +47,14 @@
     align-items: center;
     margin-top: -9px;
     padding-right: 2em;
+}
+.ham{
+    visibility: hidden;
+    position: absolute;
+}
+.close{
+    visibility: hidden;
+    position: absolute;
 }
 header{
     margin-top: 3em;
@@ -319,6 +329,54 @@ footer{
 @media screen and (max-width: 500px){
     .top{
         visibility: hidden;
+    }
+    .close{
+        top: 10px;
+        left: 10px;
+    }
+    .close img{
+        width: 20px;
+        height: 20px;
+        z-index: 12;
+    }
+    .menu{
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        background-color: rgba(185, 72, 72, 0.692);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ham{
+        visibility: visible;
+        top: 10px;
+        left: 10px;
+    }
+    .ham img{
+        width: 20px;
+        height: 20px;
+    }
+    .links{
+        position: absolute;
+        top: 30%;
+        left: 40%;
+    }
+    .menu nav ul li{
+        padding-top: 3em;
+        align-items: center;
+    }
+    .menu nav ul li a{
+        color: #fff;
+        font-weight: 900;
+        padding: 10px;
+    }
+    .menu nav ul li a:hover{
+        color: black;
+        background-color: #fff;
     }
     .line{
         margin-top: -3em;
