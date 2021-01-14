@@ -345,11 +345,12 @@ footer{
         top: 0;
         left: 0;
         z-index: 5;
-        background-color: rgba(185, 72, 72, 0.692);
+        background-color: rgba(185, 72, 72, 0.9);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: fixed;
     }
     .ham{
         visibility: visible;
@@ -363,10 +364,10 @@ footer{
     .links{
         position: absolute;
         top: 30%;
-        left: 40%;
+        left: 35%;
     }
     .menu nav ul li{
-        padding-top: 3em;
+        height: 5em;
         align-items: center;
     }
     .menu nav ul li a{
